@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		99C6D0911A148BCA00CA30A1 /* Analyze */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 99C6D0A01A148BCA00CA30A1 /* Build configuration list for PBXAggregateTarget "Analyze" */;
+			buildPhases = (
+				99C6D0901A148BCA00CA30A1 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Analyze;
+			productName = Analyze;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		99C6D05D1A148BC900CA30A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D05C1A148BC900CA30A1 /* main.m */; };
+		99C6D0601A148BC900CA30A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D05F1A148BC900CA30A1 /* AppDelegate.m */; };
+		99C6D0621A148BC900CA30A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D0611A148BC900CA30A1 /* Images.xcassets */; };
+		99C6D0651A148BC900CA30A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D0631A148BC900CA30A1 /* LaunchScreen.xib */; };
+		99C6D0711A148BCA00CA30A1 /* CenturionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D0701A148BCA00CA30A1 /* CenturionTests.m */; };
+		99C6D07B1A148BCA00CA30A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D07A1A148BCA00CA30A1 /* main.m */; };
+		99C6D07E1A148BCA00CA30A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D07D1A148BCA00CA30A1 /* AppDelegate.m */; };
+		99C6D0801A148BCA00CA30A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D07F1A148BCA00CA30A1 /* Images.xcassets */; };
+		99C6D0831A148BCA00CA30A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D0811A148BCA00CA30A1 /* LaunchScreen.xib */; };
+		99C6D08F1A148BCA00CA30A1 /* CenturionUATTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D08E1A148BCA00CA30A1 /* CenturionUATTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99C6D06B1A148BCA00CA30A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C6D04F1A148BC900CA30A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C6D0561A148BC900CA30A1;
+			remoteInfo = Centurion;
+		};
+		99C6D0891A148BCA00CA30A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C6D04F1A148BC900CA30A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C6D0561A148BC900CA30A1;
+			remoteInfo = Centurion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99C6D0571A148BC900CA30A1 /* Centurion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Centurion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C6D05B1A148BC900CA30A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C6D05C1A148BC900CA30A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99C6D05E1A148BC900CA30A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99C6D05F1A148BC900CA30A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99C6D0611A148BC900CA30A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99C6D0641A148BC900CA30A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		99C6D06A1A148BCA00CA30A1 /* CenturionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenturionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C6D06F1A148BCA00CA30A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C6D0701A148BCA00CA30A1 /* CenturionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenturionTests.m; sourceTree = "<group>"; };
+		99C6D0761A148BCA00CA30A1 /* CenturionUAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenturionUAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C6D0791A148BCA00CA30A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C6D07A1A148BCA00CA30A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99C6D07C1A148BCA00CA30A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99C6D07D1A148BCA00CA30A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99C6D07F1A148BCA00CA30A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99C6D0821A148BCA00CA30A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		99C6D0881A148BCA00CA30A1 /* CenturionUATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenturionUATTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C6D08D1A148BCA00CA30A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C6D08E1A148BCA00CA30A1 /* CenturionUATTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenturionUATTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99C6D0541A148BC900CA30A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C6D0671A148BCA00CA30A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C6D0731A148BCA00CA30A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C6D0851A148BCA00CA30A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99C6D04E1A148BC900CA30A1 = {
+			isa = PBXGroup;
+			children = (
+				99C6D0591A148BC900CA30A1 /* Centurion */,
+				99C6D06D1A148BCA00CA30A1 /* CenturionTests */,
+				99C6D0771A148BCA00CA30A1 /* CenturionUAT */,
+				99C6D08B1A148BCA00CA30A1 /* CenturionUATTests */,
+				99C6D0581A148BC900CA30A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99C6D0581A148BC900CA30A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D0571A148BC900CA30A1 /* Centurion.app */,
+				99C6D06A1A148BCA00CA30A1 /* CenturionTests.xctest */,
+				99C6D0761A148BCA00CA30A1 /* CenturionUAT.app */,
+				99C6D0881A148BCA00CA30A1 /* CenturionUATTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99C6D0591A148BC900CA30A1 /* Centurion */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D05E1A148BC900CA30A1 /* AppDelegate.h */,
+				99C6D05F1A148BC900CA30A1 /* AppDelegate.m */,
+				99C6D0611A148BC900CA30A1 /* Images.xcassets */,
+				99C6D0631A148BC900CA30A1 /* LaunchScreen.xib */,
+				99C6D05A1A148BC900CA30A1 /* Supporting Files */,
+			);
+			path = Centurion;
+			sourceTree = "<group>";
+		};
+		99C6D05A1A148BC900CA30A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D05B1A148BC900CA30A1 /* Info.plist */,
+				99C6D05C1A148BC900CA30A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C6D06D1A148BCA00CA30A1 /* CenturionTests */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D0701A148BCA00CA30A1 /* CenturionTests.m */,
+				99C6D06E1A148BCA00CA30A1 /* Supporting Files */,
+			);
+			path = CenturionTests;
+			sourceTree = "<group>";
+		};
+		99C6D06E1A148BCA00CA30A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D06F1A148BCA00CA30A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C6D0771A148BCA00CA30A1 /* CenturionUAT */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D07C1A148BCA00CA30A1 /* AppDelegate.h */,
+				99C6D07D1A148BCA00CA30A1 /* AppDelegate.m */,
+				99C6D07F1A148BCA00CA30A1 /* Images.xcassets */,
+				99C6D0811A148BCA00CA30A1 /* LaunchScreen.xib */,
+				99C6D0781A148BCA00CA30A1 /* Supporting Files */,
+			);
+			path = CenturionUAT;
+			sourceTree = "<group>";
+		};
+		99C6D0781A148BCA00CA30A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D0791A148BCA00CA30A1 /* Info.plist */,
+				99C6D07A1A148BCA00CA30A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C6D08B1A148BCA00CA30A1 /* CenturionUATTests */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D08E1A148BCA00CA30A1 /* CenturionUATTests.m */,
+				99C6D08C1A148BCA00CA30A1 /* Supporting Files */,
+			);
+			path = CenturionUATTests;
+			sourceTree = "<group>";
+		};
+		99C6D08C1A148BCA00CA30A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D08D1A148BCA00CA30A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99C6D0561A148BC900CA30A1 /* Centurion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C6D0941A148BCA00CA30A1 /* Build configuration list for PBXNativeTarget "Centurion" */;
+			buildPhases = (
+				99C6D0531A148BC900CA30A1 /* Sources */,
+				99C6D0541A148BC900CA30A1 /* Frameworks */,
+				99C6D0551A148BC900CA30A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Centurion;
+			productName = Centurion;
+			productReference = 99C6D0571A148BC900CA30A1 /* Centurion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99C6D0691A148BCA00CA30A1 /* CenturionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C6D0971A148BCA00CA30A1 /* Build configuration list for PBXNativeTarget "CenturionTests" */;
+			buildPhases = (
+				99C6D0661A148BCA00CA30A1 /* Sources */,
+				99C6D0671A148BCA00CA30A1 /* Frameworks */,
+				99C6D0681A148BCA00CA30A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C6D06C1A148BCA00CA30A1 /* PBXTargetDependency */,
+			);
+			name = CenturionTests;
+			productName = CenturionTests;
+			productReference = 99C6D06A1A148BCA00CA30A1 /* CenturionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99C6D0751A148BCA00CA30A1 /* CenturionUAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C6D09A1A148BCA00CA30A1 /* Build configuration list for PBXNativeTarget "CenturionUAT" */;
+			buildPhases = (
+				99C6D0721A148BCA00CA30A1 /* Sources */,
+				99C6D0731A148BCA00CA30A1 /* Frameworks */,
+				99C6D0741A148BCA00CA30A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CenturionUAT;
+			productName = CenturionUAT;
+			productReference = 99C6D0761A148BCA00CA30A1 /* CenturionUAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99C6D0871A148BCA00CA30A1 /* CenturionUATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C6D09D1A148BCA00CA30A1 /* Build configuration list for PBXNativeTarget "CenturionUATTests" */;
+			buildPhases = (
+				99C6D0841A148BCA00CA30A1 /* Sources */,
+				99C6D0851A148BCA00CA30A1 /* Frameworks */,
+				99C6D0861A148BCA00CA30A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C6D08A1A148BCA00CA30A1 /* PBXTargetDependency */,
+			);
+			name = CenturionUATTests;
+			productName = CenturionUATTests;
+			productReference = 99C6D0881A148BCA00CA30A1 /* CenturionUATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99C6D04F1A148BC900CA30A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Maithri VM";
+				TargetAttributes = {
+					99C6D0561A148BC900CA30A1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					99C6D0691A148BCA00CA30A1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 99C6D0561A148BC900CA30A1;
+					};
+					99C6D0751A148BCA00CA30A1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					99C6D0871A148BCA00CA30A1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 99C6D0561A148BC900CA30A1;
+					};
+					99C6D0911A148BCA00CA30A1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 99C6D0521A148BC900CA30A1 /* Build configuration list for PBXProject "Centurion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99C6D04E1A148BC900CA30A1;
+			productRefGroup = 99C6D0581A148BC900CA30A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99C6D0561A148BC900CA30A1 /* Centurion */,
+				99C6D0691A148BCA00CA30A1 /* CenturionTests */,
+				99C6D0751A148BCA00CA30A1 /* CenturionUAT */,
+				99C6D0871A148BCA00CA30A1 /* CenturionUATTests */,
+				99C6D0911A148BCA00CA30A1 /* Analyze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C6D0551A148BC900CA30A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C6D0651A148BC900CA30A1 /* LaunchScreen.xib in Resources */,
+				99C6D0621A148BC900CA30A1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C6D0681A148BCA00CA30A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C6D0741A148BCA00CA30A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C6D0831A148BCA00CA30A1 /* LaunchScreen.xib in Resources */,
+				99C6D0801A148BCA00CA30A1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C6D0861A148BCA00CA30A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99C6D0901A148BCA00CA30A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "OCLintPath=\"/OClint/oclint-0.9.dev.648e9af/bin\"\nTargetName=\"TargetNameGoesHere\"\n\ncd \"${SRCROOT}\"\n\nif [ ! -f compile_commands.json ]; then\necho \"[*] compile_commands.json not found, possibly clean was performed\"\necho \"[*] starting xcodebuild to rebuild the project..\"\n# clean previous output\nif [ -f xcodebuild.log ]; then\nrm xcodebuild.log\nfi\n\nxcodebuild -list\nxcodebuild -target \"$TargetName\" clean\n\n#build xcodebuild.log\nxcodebuild -target \"$TargetName\" -configuration Debug clean build | tee xcodebuild.log\necho \"[*] transforming xcodebuild.log into compile_commands.json...\"\n\n#transform it into compile_commands.json\n\"$OCLintPath/oclint-xcodebuild\"\nfi\necho \"[*] starting analyzing\"\n\n\"$OCLintPath/oclint-json-compilation-database\" | sed 's/\\(.*\\.\\m\\{1,2\\}:[0-9]*:[0-9]*:\\)/\\1 warning:/'";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C6D0531A148BC900CA30A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C6D0601A148BC900CA30A1 /* AppDelegate.m in Sources */,
+				99C6D05D1A148BC900CA30A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C6D0661A148BCA00CA30A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C6D0711A148BCA00CA30A1 /* CenturionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C6D0721A148BCA00CA30A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C6D07E1A148BCA00CA30A1 /* AppDelegate.m in Sources */,
+				99C6D07B1A148BCA00CA30A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C6D0841A148BCA00CA30A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C6D08F1A148BCA00CA30A1 /* CenturionUATTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99C6D06C1A148BCA00CA30A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C6D0561A148BC900CA30A1 /* Centurion */;
+			targetProxy = 99C6D06B1A148BCA00CA30A1 /* PBXContainerItemProxy */;
+		};
+		99C6D08A1A148BCA00CA30A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C6D0561A148BC900CA30A1 /* Centurion */;
+			targetProxy = 99C6D0891A148BCA00CA30A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99C6D0631A148BC900CA30A1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C6D0641A148BC900CA30A1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		99C6D0811A148BCA00CA30A1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C6D0821A148BCA00CA30A1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99C6D0921A148BCA00CA30A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99C6D0931A148BCA00CA30A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99C6D0951A148BCA00CA30A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Centurion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99C6D0961A148BCA00CA30A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Centurion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99C6D0981A148BCA00CA30A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CenturionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centurion.app/Centurion";
+			};
+			name = Debug;
+		};
+		99C6D0991A148BCA00CA30A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CenturionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centurion.app/Centurion";
+			};
+			name = Release;
+		};
+		99C6D09B1A148BCA00CA30A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CenturionUAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99C6D09C1A148BCA00CA30A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CenturionUAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99C6D09E1A148BCA00CA30A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CenturionUATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centurion.app/Centurion";
+			};
+			name = Debug;
+		};
+		99C6D09F1A148BCA00CA30A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CenturionUATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centurion.app/Centurion";
+			};
+			name = Release;
+		};
+		99C6D0A11A148BCA00CA30A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99C6D0A21A148BCA00CA30A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99C6D0521A148BC900CA30A1 /* Build configuration list for PBXProject "Centurion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C6D0921A148BCA00CA30A1 /* Debug */,
+				99C6D0931A148BCA00CA30A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C6D0941A148BCA00CA30A1 /* Build configuration list for PBXNativeTarget "Centurion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C6D0951A148BCA00CA30A1 /* Debug */,
+				99C6D0961A148BCA00CA30A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99C6D0971A148BCA00CA30A1 /* Build configuration list for PBXNativeTarget "CenturionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C6D0981A148BCA00CA30A1 /* Debug */,
+				99C6D0991A148BCA00CA30A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99C6D09A1A148BCA00CA30A1 /* Build configuration list for PBXNativeTarget "CenturionUAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C6D09B1A148BCA00CA30A1 /* Debug */,
+				99C6D09C1A148BCA00CA30A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99C6D09D1A148BCA00CA30A1 /* Build configuration list for PBXNativeTarget "CenturionUATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C6D09E1A148BCA00CA30A1 /* Debug */,
+				99C6D09F1A148BCA00CA30A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99C6D0A01A148BCA00CA30A1 /* Build configuration list for PBXAggregateTarget "Analyze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C6D0A11A148BCA00CA30A1 /* Debug */,
+				99C6D0A21A148BCA00CA30A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99C6D04F1A148BC900CA30A1 /* Project object */;
+}
