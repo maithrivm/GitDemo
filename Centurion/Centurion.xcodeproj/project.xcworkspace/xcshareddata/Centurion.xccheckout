@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F7482112-F844-41C5-AFF5-1AF7C43240EE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Centurion</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4678006B0D1C24457BA4801975BD7FE23848F0F6</key>
+		<string>https://github.com/maithrivm/GitDemo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Centurion/Centurion.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4678006B0D1C24457BA4801975BD7FE23848F0F6</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/maithrivm/GitDemo</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4678006B0D1C24457BA4801975BD7FE23848F0F6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4678006B0D1C24457BA4801975BD7FE23848F0F6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GitDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
